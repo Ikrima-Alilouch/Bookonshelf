@@ -1,0 +1,683 @@
+/*background*/
+body
+{
+    background-color: rgba(238,238,238,255);
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*Mini Navbar*/
+.Mini_Navbar ul
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.Mini_Navbar li
+{
+    font-size: 20px;
+    float: left;
+}
+.Mini_Navbar li a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+.Mini_Navbar a:hover
+{
+    background-color: lightslategrey;
+}
+/*Navbar*/
+.navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 200%;
+}
+
+li
+{
+    font-size: 30px;
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.V&d_nb
+{
+    width: 20px;
+    height: 46px;
+}
+
+.Shoppingcart
+{
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+/*Home*/
+h2
+{
+    width: 1500px;
+    text-align:center;
+    margin: 100px;
+    color: black;
+}
+h4
+{
+    width: 1500px;
+    text-align:center;
+    margin: 100px;
+    color: black;
+
+}
+.Profile
+{
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: -6px;
+}
+
+.logo
+{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.resize
+{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: -13%;
+
+}
+
+/*Login Pagina*/
+.login
+{    border-radius: 10000px;
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    left: 25%;
+    top: 30%;
+    background:black;
+    border:2px solid rgba(0, 0, 0, 0.29);
+    backdrop-filter:blur(80px) ;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.24);
+
+}
+.Input_Box_Lg input
+{
+    width: 50%;
+    height: 35px;
+    background: #ffffff;
+    outline: black;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 90px;
+    margin: 20px auto;
+    display: block;
+}
+.Input_Box input
+{
+    width: 50%;
+    height: 35px;
+    background: #ffffff;
+    outline: black;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 90px;
+    margin: 20px auto;
+    display: block;
+}
+
+.Login h1
+
+{
+    color: white;
+    top: 70px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.Login .Input_Box
+{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.Login .Input_Box_Lg
+{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+div.Login
+{
+    color:black;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    border: 3px saddlebrown;
+    padding: 10px;
+}
+
+.Btn
+{
+    margin-right: 1px;
+    width: 70%;
+    height: 30px;
+    background:white;
+    border: 4px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    position: absolute;
+    right: 15%;
+}
+
+.Register-Link
+{
+    margin: 30px 0;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 38%;
+}
+
+h2
+{    top: 70px;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+
+
+/*Register*/
+.Input_Box_Register input
+{
+
+    width: 50%;
+    height: 35px;
+    background: white;
+    outline: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 90px;
+    margin: 20px auto;
+    display: block;
+}
+
+.account
+{   border-radius: 100px;
+    position: absolute;
+    width: 30%;
+    height: 700px;
+    left: 35%;
+    top: 14%;
+    background:black;
+    border:2px solid rgb(255,255,255, .2);
+    backdrop-filter:blur(80px) ;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.24);
+    color:#ffffff;
+}
+
+h3
+{
+    top: 70px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.container
+{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img
+{
+    max-width: 100%;
+    max-height:100%;
+}
+
+.V&d_nb img
+{
+    max-width: 30%;
+    max-height:100%;
+}
+
+.text
+{
+    font-size: 70px;
+}
+
+.Btn_Register
+{
+    margin-right: 1px;
+    width: 70%;
+    height: 30px;
+    color: Black;
+    background:White;
+    border-radius: 40px;
+    position: absolute;
+    right: 15%;
+}
+/*Adding */
+.Adding_box input
+{
+    width: 50%;
+    height: 50px;
+    background: white;
+    outline: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: 20px auto;
+    margin-top: 0;
+    display: block;
+}
+.Adding_box label
+{
+    width: 50%;
+    margin: 5px auto;
+    color: black;
+    display: block;
+}
+
+.Btn_Adding
+{
+    margin-right: 1px;
+    width: 70%;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: 4px solid rgba(255, 255, 255, .0);
+    border-radius: 20px;
+    position: absolute;
+    right: 15%;
+    top: 170px;
+}
+
+.Adding_box
+{
+    position: absolute;
+    height: 250px;
+    width: 30%;
+    left: 35%;
+    top: 30%;
+    background: black;
+    border-radius: 20px;
+    backdrop-filter:blur(80px) ;
+
+}
+.Adding_box h1
+{
+    top: 70px;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+
+
+}
+/*Home Customer*/
+.Resize_Model
+{
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: -50%;
+
+
+}
+
+#topBlackBar
+{
+    width: 200%;
+    border-top: 20px solid #000;
+}
+.Content_Box {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    max-height: 80%;
+    left: 3%;
+    top: 130%;
+    transform: translateY(-50%);
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.Titel_History {
+    margin-bottom: 20px;
+}
+
+.Content_Text {
+    color: #333;
+    line-height: 1.5;
+}
+
+.Content_Text p {
+    margin-bottom: 15px;
+}
+
+.Content_Box::-webkit-scrollbar {
+    width: 10px;
+}
+
+.Content_Box::-webkit-scrollbar-thumb {
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.Content_Box::-webkit-scrollbar-track {
+    background-color: #f7f7f7;
+}
+
+.Content_Box2 {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    max-height: 80%;
+    left: 75%;
+    top: 122%;
+    transform: translateY(-50%);
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.Titel_History {
+    margin-bottom: 20px;
+}
+
+.Content_Text {
+    color: #333;
+    line-height: 1.5;
+}
+/*Tabel*/
+.table {
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    background-color: #f5f5f5;
+    padding: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.table button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.table button:hover {
+    background-color: rgba(0, 0, 0, 0.29);
+}
+/*Add_Product*/
+.P_Adding_box
+{
+    position: absolute;
+    height: 415px;
+    width: 30%;
+    left: 35%;
+    top: 30%;
+    background: black;
+    border-radius: 20px;
+    backdrop-filter:blur(80px) ;
+
+}
+
+.P_Btn_Adding
+{
+    margin-right: 1px;
+    width: 70%;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: 4px solid rgba(255, 255, 255, .0);
+    border-radius: 20px;
+    position: absolute;
+    right: 15%;
+    top: 360px;
+}
+
+/*Adjust*/
+.Input_Box_Adjust
+{
+    width: 50%;
+    height: 35px;
+    background: #ffffff;
+    outline: black;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 90px;
+    margin: 20px auto;
+    display: block;
+}
+
+.Login .Input_Box_Adjust
+{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.Tabel_Adjust {
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.Tabel_Adjust table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Tabel_Adjust th, .Tabel_Adjust td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.Tabel_Adjust th {
+    background-color: #333;
+    color: #fff;
+}
+
+.Tabel_Adjust td {
+    background-color: #f9f9f9;
+}
+
+.Tabel_Adjust button
+{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.Tabel_Adjust button:hover
+{
+    background-color: lightslategrey;
+}
+
+
+.Tabel_Adjust form {
+    display: inline;
+}
+
+
+.Tabel_Adjust button[type="submit"]
+{
+    margin-right: 5px;
+}
+
+.Tabel_Adjust form
+{
+    display: inline;
+}
+
+/*Select*/
+.container {
+    width: 50%;
+}
+
+.Select_Box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.Select_Box select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="%23333"><path d="M8 12l8 8 8-8z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 20px;
+    margin-left: 130px;
+}
+
+
+.Select_Box select:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.Select_Box select::-ms-expand {
+    display: none;
+}
+/*Products*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: arial;
+    width: calc(33.33% - 20px); /* Set width for each card, adjust as needed */
+
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+/*Shopping cart*/
+
+.Order_Box
+{   border-radius: 100px;
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    top: 80%;
+    background:white;
+}
+btn_order
+{   border-radius: 100px;
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    top: 80%;
+    background:white;
+}
+
+
+.order_btn
+{
+    margin-right: 1px;
+    width: 70%;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: 4px solid rgba(255, 255, 255, .0);
+    border-radius: 20px;
+    position: absolute;
+    right: 15%;
+    top: 170px;
+}
